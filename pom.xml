@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>br.edu.ifrs.canoas.noll</groupId>
+    <artifactId>spring-boot-sample</artifactId>
+    <version>0.0.1-snapshot</version>
+    <packaging>pom</packaging>
+    <organization>
+		<name>Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul - IFRS - Campus Canoas</name>
+		<url>https://ifrs.edu.br/canoas/</url>
+	</organization>
+	<scm>
+		<url>https://github.com/lab-ds/spring-boot-samples</url>
+	</scm>
+
+    <modules>
+        <module>ifskills</module>
+        <module>sed</module>
+        <module>petnation</module>
+    </modules>
+
+</project>
